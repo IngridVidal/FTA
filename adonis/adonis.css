@@ -5,9 +5,10 @@ Diese Datei dient nur zur Vorlage und soll nicht im Projekt eingebunden sein!
 */
 
 :root {
-    --primary-color: #333;
-    --secondary-color: #6e6e6e;
-    --accent-color: azure;
+    --primary-color: #414446;
+    --secondary-color: #b3b3b3;
+    --primary-accent-color: #0cc0df;
+    --secondary-accent-color: #90eaf9;
 
     /* ANCHOR Adonis Variablen */
     /* Skalierungsfaktor */
@@ -75,7 +76,7 @@ svg.adonis-position {
 
 button.adonis-position:hover {
     cursor: pointer;
-    background: #0cc0df;
+    background: var(--primary-accent-color);
 }
 
 .adonis-button-pectoralis-major {

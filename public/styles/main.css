@@ -1,0 +1,51 @@
+/* ANCHOR Variablen */
+:root {
+  --backgroung-color: #fff;
+  --primary-text-color: #fff;
+  --secondary-text-color: #000;
+  --primary-color: #414446;
+  --secondary-color: #b3b3b3;
+  --primary-accent-color: #0cc0df;
+  --secondary-accent-color: #90eaf9;
+}
+
+/* ANCHOR Standardelemente */
+/* Allgemeine Einstellungen */
+body {
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family: "Arial", sans-serif;
+  background-color: var(--backgroung-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  background-color: var(--backgroung-color);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 5%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+
+/* Buttons */
+button {
+  background-color: var(--primary-accent-color);
+  color: var(--primary-text-color);
+  border: none;
+  padding: 0.8rem 1.5rem;
+  width: 100%;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* ANCHOR Benutzerdefinierte Klassen */
